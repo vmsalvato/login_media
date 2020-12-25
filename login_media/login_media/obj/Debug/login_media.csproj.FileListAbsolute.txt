@@ -9,3 +9,14 @@ C:\Users\Vinicius\Desktop\login_media\login_media\obj\Debug\login_media.csproj.C
 C:\Users\Vinicius\Desktop\login_media\login_media\obj\Debug\login_media.exe
 C:\Users\Vinicius\Desktop\login_media\login_media\obj\Debug\login_media.pdb
 C:\Users\Vinicius\Desktop\login_media\login_media\obj\Debug\login_media.Form2.resources
+C:\Users\Vinicius\Documents\MeusProjetos\login_media\login_media\login_media\bin\Debug\login_media.exe.config
+C:\Users\Vinicius\Documents\MeusProjetos\login_media\login_media\login_media\bin\Debug\login_media.exe
+C:\Users\Vinicius\Documents\MeusProjetos\login_media\login_media\login_media\bin\Debug\login_media.pdb
+C:\Users\Vinicius\Documents\MeusProjetos\login_media\login_media\login_media\obj\Debug\login_media.csprojAssemblyReference.cache
+C:\Users\Vinicius\Documents\MeusProjetos\login_media\login_media\login_media\obj\Debug\login_media.Form1.resources
+C:\Users\Vinicius\Documents\MeusProjetos\login_media\login_media\login_media\obj\Debug\login_media.Form2.resources
+C:\Users\Vinicius\Documents\MeusProjetos\login_media\login_media\login_media\obj\Debug\login_media.Properties.Resources.resources
+C:\Users\Vinicius\Documents\MeusProjetos\login_media\login_media\login_media\obj\Debug\login_media.csproj.GenerateResource.cache
+C:\Users\Vinicius\Documents\MeusProjetos\login_media\login_media\login_media\obj\Debug\login_media.csproj.CoreCompileInputs.cache
+C:\Users\Vinicius\Documents\MeusProjetos\login_media\login_media\login_media\obj\Debug\login_media.exe
+C:\Users\Vinicius\Documents\MeusProjetos\login_media\login_media\login_media\obj\Debug\login_media.pdb

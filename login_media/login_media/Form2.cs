@@ -25,6 +25,14 @@ namespace login_media
             x3 = Convert.ToDouble(txtMedia3.Text);
             media = (x1 + x2 + x3) / 3;
             txtMedia.Text = media.ToString();
+
+            if (media >= 7) {
+                MessageBox.Show("Aprovado! Média: " + media, "Mensagem", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+            else {
+                MessageBox.Show("Reprovado! Média: " + media, "Mensagem", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
         private void btnLimpar_Click(object sender, EventArgs e)
