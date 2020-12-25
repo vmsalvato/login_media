@@ -19,19 +19,39 @@ namespace login_media
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            double x1, x2, x3, media;
-            x1 = Convert.ToDouble(txtMedia1.Text);
-            x2 = Convert.ToDouble(txtMedia2.Text);
-            x3 = Convert.ToDouble(txtMedia3.Text);
-            media = (x1 + x2 + x3) / 3;
-            txtMedia.Text = media.ToString();
-
-            if (media >= 7) {
-                MessageBox.Show("Aprovado! Média: " + media, "Mensagem", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            if (txtMedia1.Text == "" )
+            {
+                MessageBox.Show("Digite todos os valores", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
-            else {
-                MessageBox.Show("Reprovado! Média: " + media, "Mensagem", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            else if (txtMedia2.Text == "")
+            {
+                MessageBox.Show("Digite todos os valores", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+            else if (txtMedia3.Text == "")
+            {
+                MessageBox.Show("Digite todos os valores", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+            else
+            {
+                double x1, x2, x3, media;
+                x1 = Convert.ToDouble(txtMedia1.Text);
+                x2 = Convert.ToDouble(txtMedia2.Text);
+                x3 = Convert.ToDouble(txtMedia3.Text);
+                media = (x1 + x2 + x3) / 3;
+                txtMedia.Text = media.ToString();
+
+                if (media >= 7)
+                {
+                    MessageBox.Show("Aprovado! Média: " + media, "Mensagem", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+
+                else
+                {
+                    MessageBox.Show("Reprovado! Média: " + media, "Mensagem", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
             }
         }
 
